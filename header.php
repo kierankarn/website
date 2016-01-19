@@ -19,6 +19,7 @@
 			</ul>
 		</nav>
 	</div>
+	<div class="container">
 	<header class="header">
 		<a href="index.php"><img src="assets/images/logo.png" alt="logo"></a>
 		<button id="overlay-menu" class="menuButton" type="button"><i class="fa fa-bars"></i></button>
@@ -31,4 +32,6 @@
 	});	
 
 </script>
+	<div class="header-image">
+	</div>
 </body>

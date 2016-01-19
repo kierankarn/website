@@ -11,6 +11,7 @@ html,
 body {
 	margin: 0;
 	padding: 0;
+	height: 100%;
 }
 
 *,
@@ -22,7 +23,17 @@ body {
 body {
 	margin: 0 auto;
 	font-family: 'Montserrat', sans-serif;
-	background-color: #FFFFFF;
+	background-color: transparent;
+	height: 100%;
+}
+
+ body p {
+	color: #FFFF0C;
+}
+
+.container {
+	min-height: 100%;
+	position:relative;
 }
 
 .header {
@@ -106,9 +117,33 @@ body {
 	z-index:-1;
 }
 
+.main {
+	width: 100%;
+	height: 35em;
+	margin: 0 auto;
+	background-color: #FFFF0C;
+}
+
 .footer {
 	bottom: 0;
+	left: 0;
 	width: 100%;
 	height: 3rem;
-	color: red;
+	background-color: #000000;
+    height: 5em;
+    margin: 0 auto;
+    position: static;
 }
+
+.footer small {
+	display: block;
+	font-size: 0.7em;
+	position: static;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 20px;
+}
+
+
+
