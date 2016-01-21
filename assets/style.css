@@ -27,7 +27,7 @@ body {
 	height: 100%;
 }
 
- body p {
+ body p, h1 {
 	color: #FFFF0C;
 }
 
@@ -43,6 +43,7 @@ body {
 	height: 5em;
 	position: fixed;
 	background-color: #000000;
+	z-index: 400;
 }
 
 .menuButton {
@@ -72,6 +73,7 @@ body {
 	visibility: hidden;
 	background-color:#000000;
 	transition: all 0.5s;
+	z-index: 300;
 }
 
 .overlay-open {
@@ -119,10 +121,30 @@ body {
 
 .main {
 	width: 100%;
-	height: 35em;
+	height: 100%;
 	margin: 0 auto;
 	background-color: #FFFF0C;
+	overflow: hidden;
+	padding: 10px;
 }
+
+.wrap {
+	margin: 0px auto;
+	padding: 20px;
+	top: 5%;
+	position: relative;
+	overflow: hidden;
+	bottom: 5%;
+}
+
+.content {
+	background-color: #000000;
+	clear: left;
+	float: left;
+	padding: 20px;
+	margin-left: 0px;
+}
+
 
 .footer {
 	bottom: 0;
@@ -143,6 +165,12 @@ body {
 	left: 0;
 	width: 100%;
 	height: 20px;
+}
+
+.footer small p {
+	margin: 0 auto;
+	text-align: center;
+	padding: 33px 5px;
 }
 
 

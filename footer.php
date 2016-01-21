@@ -1,5 +1,7 @@
 <footer class="footer">
-	<small><p>&copy; <?php echo date("Y") ?></p></small>
+	<div class="container">
+		<small><p>&copy; <?php echo date("Y") ?> Kieran Karn - All Rights Reserved</p></small>
+	</div>
 </footer>
 </div>
 </body>
